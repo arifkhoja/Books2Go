@@ -1,0 +1,37 @@
+{
+  "id": "646e4421-5ee4-45aa-a427-b0ca2638f13f",
+  "name": "SearchOtherBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BookSearch",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "which book would you like to search?",
+            "ok which book you want to search?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538241880,
+  "fallbackIntent": false,
+  "events": []
+}

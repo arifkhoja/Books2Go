@@ -1,0 +1,40 @@
+{
+  "id": "1c2b68cf-90d3-46ce-8675-67ca181d06c4",
+  "parentId": "5151b17a-fd8d-4d70-945a-91c81dce522f",
+  "rootParentId": "5151b17a-fd8d-4d70-945a-91c81dce522f",
+  "name": "SearchMoreBooks",
+  "auto": true,
+  "contexts": [
+    "BookSearch-followup",
+    "BookName"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookSearch.SearchMoreBooks",
+      "affectedContexts": [
+        {
+          "name": "BookName",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1537725361,
+  "fallbackIntent": false,
+  "events": []
+}

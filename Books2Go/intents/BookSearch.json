@@ -1,0 +1,92 @@
+{
+  "id": "5151b17a-fd8d-4d70-945a-91c81dce522f",
+  "name": "BookSearch",
+  "auto": true,
+  "contexts": [
+    "BookName"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BookName",
+          "parameters": {},
+          "lifespan": 99
+        },
+        {
+          "name": "BookSearch-followup",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d2261adc-80d9-471a-a259-79cb26fcdf85",
+          "required": true,
+          "dataType": "@books",
+          "name": "books",
+          "value": "$books",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which book do you need?"
+            },
+            {
+              "lang": "en",
+              "value": "Which book do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "May I know the book name please?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me the book name"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s that book?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s the name of the book?"
+            },
+            {
+              "lang": "en",
+              "value": "Which book is that?"
+            },
+            {
+              "lang": "en",
+              "value": "Which book do you want me to look for?"
+            },
+            {
+              "lang": "en",
+              "value": "Which book should I look for?"
+            },
+            {
+              "lang": "en",
+              "value": "Which book do you want to read?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1538276149,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}
